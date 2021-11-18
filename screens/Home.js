@@ -24,7 +24,8 @@ export default function Home({navigation}){
         </View>
 
         <ScrollView>
-            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold'}}>Men boxers</Text></View>
+            <View style={{height: '100%', width: '100%', marginVertical: 10, marginHorizontal: 10, backgroundColor: 'gray'}}>
+            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold', color: 'white'}}>Men boxers</Text></View>
             <View style={{flexDirection: 'column'}}>
             <View style={{flexDirection: 'row'}}>
                 
@@ -75,7 +76,7 @@ export default function Home({navigation}){
     
             </View>
 
-            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold'}}>Girls Panties</Text></View>
+            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold', color: 'white'}}>Girls Panties</Text></View>
             <View style={{flexDirection: 'row', marginVertical: 30}}>
                 
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
@@ -125,7 +126,7 @@ export default function Home({navigation}){
     
             </View>
 
-            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold'}}>Men Singlet</Text></View>
+            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold', color: 'white'}}>Men Singlet</Text></View>
             <View style={{flexDirection: 'row', marginVertical: 30}}>
                 
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
@@ -174,7 +175,7 @@ export default function Home({navigation}){
                     </TouchableOpacity>
     
             </View>
-            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold'}}>Girls Bra</Text></View>
+            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold', color: 'white'}}>Girls Bra</Text></View>
             <View style={{flexDirection: 'row', marginVertical: 30}}>
                 
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
@@ -217,7 +218,33 @@ export default function Home({navigation}){
                         </Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://media.istockphoto.com/photos/portrait-of-a-teenage-girl-picture-id80489825?k=20&m=80489825&s=612x612&w=0&h=Nuyfqg8XbCF0gpYDvwzcRlR0yGl1kDLEugKro3q9FD8='}}>
+
+                        </Image>
+                    </TouchableOpacity>
+    
+            </View>
+
+            <View style={{justifyContent: 'center', alignItems: 'center', marginVertical: 10}}><Text style={{fontSize: 30, fontWeight: 'bold', color: 'white'}}>Men T-Shirt</Text></View>
+            <View style={{flexDirection: 'row', marginVertical: 30}}>
+                
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://www.iciw.com/bilder/artiklar/ICIW-402.jpg?m=1572872601'}}>
+
+                        </Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://m.media-amazon.com/images/I/61-jBuhtgZL._UX569_.jpg'}}>
+
+                        </Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://m.media-amazon.com/images/I/71vp8Lec9JL._UX466_.jpg'}}>
+
+                        </Image>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://cdn.shopify.com/s/files/1/0249/4110/1152/products/TS-078_PO3_WSB.jpg?v=1623062160'}}>
 
                         </Image>
                     </TouchableOpacity>
@@ -226,50 +253,27 @@ export default function Home({navigation}){
             <View style={{flexDirection: 'row', marginVertical: 30}}>
                 
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://i.pinimg.com/originals/85/30/b7/8530b7f65f32ba06bdf1e0af6048709e.jpg'}}>
 
                         </Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://i.pinimg.com/originals/2e/09/dd/2e09dd4bfe8d5010b9d5b6ad942a2446.jpg'}}>
 
                         </Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://assets.indiadesire.com/images/RIG%20mens%20printed%20tshirt.jpg'}}>
 
                         </Image>
                     </TouchableOpacity>
                     <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
+                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: 'https://assets.ajio.com/medias/sys_master/root/hd9/h52/13493043658782/-473Wx593H-441000453-olive-MODEL.jpg'}}>
 
                         </Image>
                     </TouchableOpacity>
     
             </View>
-            <View style={{flexDirection: 'row', marginVertical: 30}}>
-                
-                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
-
-                        </Image>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
-
-                        </Image>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
-
-                        </Image>
-                    </TouchableOpacity>
-                    <TouchableOpacity style={{marginHorizontal: 10, marginVertical: 10}}>
-                        <Image style={{width: 200, height: 200, borderRadius: 10}} source={{uri: ''}}>
-
-                        </Image>
-                    </TouchableOpacity>
-    
             </View>
             </View>
         </ScrollView>
